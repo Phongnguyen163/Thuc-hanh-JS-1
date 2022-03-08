@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button type="button" onclick="baiMot();">Bài 1!</button>
+<br><br>
+<div id="messageDiv"></div>
+<button type="button" onclick="baiHai();">Bài 2!</button>
+<br><br>
+<button type="button" onclick="baiBa();">Bài 3!</button>
+<br><br>
+<button type="button" onclick="baiBon();">Bài 4!</button>
+<script>
+    function baiMot(){
+        alert('Xin chào!');
+    }
+    function baiHai(){
+        document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+    }
+    function baiBa(){
+        document.write('Xin chào!');
+    }
+    function baiBon(){
+        console.log('Xin chào!');
+    }
+</script>
+</body>
+</html>
